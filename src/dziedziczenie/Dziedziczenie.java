@@ -81,8 +81,7 @@ public class Dziedziczenie {
         if (d.equalsa(dzie[3])){
             System.out.println("ok");
         }   
-        
-        GregorianCalendar kalendarz= new GregorianCalendar();
+
    
    
                    System.out.println(" " 
