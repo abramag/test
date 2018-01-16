@@ -2,20 +2,31 @@
 public class LStart {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		System.out.println("test");
-	int k;
-	LStart.LStop stp = new LStart.LStop();
-	k=stp.LStopa(8);
-	System.out.println(k);
+
+		System.out.println("Start");
+		int k;
+		LStop stp = new LStart(). new LStop(8);
+		k=stp.zwroc();
+		System.out.println(k);
+	
 	}
-	
-	
-	private class LStop {
-		 public int LStopa(int l) {
-			 l++;
-			 return l;
-		 }	
-			
+
+
+//LStop musi byc interface
+	class LStop  {
+		public LStop(int l) {
+			this.k=l++;
+
+		}	
+
+		public int zwroc () {
+			System.out.println("Result K is: " + k);
+			return k;
+
 		}
+		int k;
+	}
+
 }
+
+//interface Stops{};
